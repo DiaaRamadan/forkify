@@ -1,0 +1,36 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "JavaScript Prject",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development --open",
+    "test": "webpack--w"
+  },
+  "author": "Diaa",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.1",
+    "@babel/preset-env": "^7.13.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "html-webpack-plugin": "^5.2.0",
+    "webpack": "^5.24.1",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "axios": "^0.21.1",
+    "babel-loader": "^8.2.2",
+    "core-js": "^3.9.0",
+    "jquery": "^3.5.1",
+    "regenerator-runtime": "^0.13.7",
+    "uniqid": "^5.3.0"
+  }
+}
